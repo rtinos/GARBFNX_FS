@@ -10,13 +10,13 @@ Contact: Renato Tinos <rtinos@ffclrp.usp.br>
 
 Running the code: ./GARBFNX_FS <problem name> <classifier> <cross_type> <RBF_config>
 
-<problem name>: name of the instance (dataset), without extension. An example of the dataset format is given in file ionosphere.dat. In the dataset, the inputs were normalized between 0 and 1 and the labels of the classes are integers (starting at 1).
+problem name: name of the instance (dataset), without extension. An example of the dataset format is given in file ionosphere.dat. In the dataset, the inputs were normalized between 0 and 1 and the labels of the classes are integers (starting at 1).
 
-<classifier>: classifier type (here, only KNN is used). 1: KNN with K=3; 2: KNN with K=5; 3: KNN with K=7.
+classifier: classifier type (here, only KNN is used). 1: KNN with K=3; 2: KNN with K=5; 3: KNN with K=7.
 
-<cross_type>: crossover type 1: 2X (2-point crossover); type 2: UX (uniform crossover); type 3: dRBFNX (deterministic RBFN crossover); type 4: sRBFNX (stochastic RBFN crossover); type 5: mRBFNX (mixed RBFN crossover).
+cross_type: crossover type 1: 2X (2-point crossover); type 2: UX (uniform crossover); type 3: dRBFNX (deterministic RBFN crossover); type 4: sRBFNX (stochastic RBFN crossover); type 5: mRBFNX (mixed RBFN crossover).
 
-<RBF_config>: controls the number of hidden neurons (radial units). The number of radial units is RBF_config*10. The maximum value is 120 radial units. It is not used for 2X and UX.
+RBF_config: controls the number of hidden neurons (radial units). The number of radial units is RBF_config*10. The maximum value is 120 radial units. It is not used for 2X and UX.
 
 
 Example for running the code for: ionosphere (dataset ionosphere) 1 (KNN with K=3) 3 (dRBFNX) 8 (RBFN with 80 radial units) 
