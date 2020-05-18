@@ -8,9 +8,9 @@ Reference:  Tinos, R. (2020), "Artificial Neural Network Based Crossover for Evo
 Contact: Renato Tinos <rtinos@ffclrp.usp.br>
 
 
-Running the code: ./GARBFNX_FS <problem name> <classifier> <cross_type> <RBF_config>
+Running the code: ./GARBFNX_FS problem_name classifier cross_type RBF_config
 
-problem name: name of the instance (dataset), without extension. An example of the dataset format is given in file ionosphere.dat. In the dataset, the inputs were normalized between 0 and 1 and the labels of the classes are integers (starting at 1).
+problem_name: name of the instance (dataset), without extension. An example of the dataset format is given in file ionosphere.dat. In the dataset, the inputs were normalized between 0 and 1 and the labels of the classes are integers (starting at 1).
 
 classifier: classifier type (here, only KNN is used). 1: KNN with K=3; 2: KNN with K=5; 3: KNN with K=7.
 
